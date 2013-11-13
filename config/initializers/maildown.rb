@@ -20,6 +20,6 @@
 
 
 
-user = User.last
-docs = DocMethod.last(rand(6) + 1)
-puts ::UserMailer.daily_docs(user: user, docs: docs).body
+#user = User.last
+#docs = DocMethod.last(rand(6) + 1)
+#puts ::UserMailer.daily_docs(user: user, docs: docs).body
